@@ -30,3 +30,8 @@ body {
     text-align: center;
   }
   
+  canvas {
+    width: 160px;
+    height: 160px;
+  }
+  
