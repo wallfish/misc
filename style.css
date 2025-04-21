@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    font-family: sans-serif;
+  }
+  
+  .rive-container {
+    text-align: center;
+  }
+  
+  .label {
+    margin-top: 8px;
+    color: #c4c4c4;
+    font-size: 14px;
+  }
+  
+  .rive-row {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .rive-box {
+    text-align: center;
+  }
+  
