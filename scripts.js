@@ -1,5 +1,5 @@
 const r1 = new rive.Rive({
-    src: "asset/loan.riv",
+    src: "asset/loan_loader_fetch.riv",
     canvas: document.getElementById("canvas1"),
     autoplay: true,
     stateMachines: "anime",
@@ -9,7 +9,7 @@ const r1 = new rive.Rive({
   });
   
   const r2 = new rive.Rive({
-    src: "asset/loans2.riv",
+    src: "asset/loan_loader_verify.riv",
     canvas: document.getElementById("canvas2"),
     autoplay: true,
     stateMachines: "anime",
