@@ -18,3 +18,13 @@ const r1 = new rive.Rive({
     },
   });
   
+  const r3 = new rive.Rive({
+    src: "asset/loan_loader_badge.riv",
+    canvas: document.getElementById("canvas3"),
+    autoplay: true,
+    stateMachines: "anime",
+    onLoad: () => {
+      r2.resizeDrawingSurfaceToCanvas();
+    },
+  });
+  
