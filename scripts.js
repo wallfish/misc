@@ -28,3 +28,22 @@ const r1 = new rive.Rive({
     },
   });
   
+  const r4 = new rive.Rive({
+    src: "asset/loan_loader_load.riv",
+    canvas: document.getElementById("canvas4"),
+    autoplay: true,
+    stateMachines: "anime",
+    onLoad: () => {
+      r2.resizeDrawingSurfaceToCanvas();
+    },
+  });
+
+  const r5 = new rive.Rive({
+    src: "asset/loan_loader_bank.riv",
+    canvas: document.getElementById("canvas5"),
+    autoplay: true,
+    stateMachines: "anime",
+    onLoad: () => {
+      r2.resizeDrawingSurfaceToCanvas();
+    },
+  });
