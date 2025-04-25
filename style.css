@@ -8,9 +8,17 @@ body {
     background-color: #ffffff;
     font-family: sans-serif;
   }
+
+  .main-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
   
   .rive-container {
     text-align: center;
+    margin: 24px;
   }
   
   .label {
@@ -66,3 +74,4 @@ body {
 .download-btn:hover {
   background-color: #0056b3;
 }
+
