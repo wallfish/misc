@@ -24,7 +24,7 @@ const r1 = new rive.Rive({
     autoplay: true,
     stateMachines: "anime",
     onLoad: () => {
-      r2.resizeDrawingSurfaceToCanvas();
+      r3.resizeDrawingSurfaceToCanvas();
     },
   });
   
@@ -34,7 +34,7 @@ const r1 = new rive.Rive({
     autoplay: true,
     stateMachines: "anime",
     onLoad: () => {
-      r2.resizeDrawingSurfaceToCanvas();
+      r4.resizeDrawingSurfaceToCanvas();
     },
   });
 
@@ -44,6 +44,17 @@ const r1 = new rive.Rive({
     autoplay: true,
     stateMachines: "anime",
     onLoad: () => {
-      r2.resizeDrawingSurfaceToCanvas();
+      r5.resizeDrawingSurfaceToCanvas();
+    },
+  });
+
+
+    const r6 = new rive.Rive({
+    src: "asset/test_01.riv",
+    canvas: document.getElementById("canvas6"),
+    autoplay: true,
+    stateMachines: "Story_1",
+    onLoad: () => {
+      r6.resizeDrawingSurfaceToCanvas();
     },
   });
